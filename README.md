@@ -1,12 +1,14 @@
-Implementación y Despliegue de Microservicios con Docker
-Introducción
-Este proyecto contiene dos microservicios, curso y formacion, implementados y desplegados utilizando Docker y Docker Compose. Cada microservicio tiene su propia configuración y un Dockerfile para la construcción de la imagen Docker. Se han configurado para asegurar su correcto funcionamiento y comunicación entre ellos.
+# Implementación y Despliegue de Microservicios con Docker
 
-Estructura del Proyecto
+## Introducción
+
+Este proyecto contiene dos microservicios, `curso` y `formacion`, implementados y desplegados utilizando Docker y Docker Compose. Cada microservicio tiene su propia configuración y un Dockerfile para la construcción de la imagen Docker. Se han configurado para asegurar su correcto funcionamiento y comunicación entre ellos.
+
+## Estructura del Proyecto
+
 El proyecto consta de dos microservicios con la siguiente estructura de directorios:
 
-markdown
-Copiar código
+
 ejercicio6/
 │   docker-compose.yml
 │
@@ -17,6 +19,8 @@ ejercicio6/
 └───ejercicio6_microservicio_formacion_docker
         formacion.jar
         Dockerfile
+
+        
 Dockerfile
 Dockerfile para curso
 Dockerfile

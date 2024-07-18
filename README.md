@@ -101,3 +101,18 @@ networks:
 
         docker logs ejercicio6-curso-service-1
         docker logs ejercicio6-formacion-service-1
+
+
+### Acceso a Swagger
+- Para acceder a la interfaz de Swagger y probar los endpoints, se utilizó la siguiente URL:
+
+Microservicio Curso: http://localhost:9001/swagger-ui/index.html
+Microservicio Formación: http://localhost:9000/swagger-ui/index.html
+
+
+### Conclusión
+- Se ha implementado y desplegado con éxito dos microservicios utilizando Docker y Docker Compose. Los microservicios se comunican entre ellos y están configurados para trabajar con una base de datos MySQL. Además, se ha configurado Swagger para probar los endpoints de los microservicios.
+
+### Observaciones
+- Ejecución en Modo Desatendido: El uso de docker-compose up -d permite ejecutar los servicios en segundo plano.
+- Manejo de Redes: Se utiliza una red bridge para permitir la comunicación entre los contenedores.

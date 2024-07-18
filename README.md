@@ -40,11 +40,10 @@ EXPOSE 8091
 ENTRYPOINT ["java", "-jar", "/formacion.jar"]
 ```
 
-Archivo Docker Compose
+### Archivo Docker Compose
 El archivo docker-compose.yml se utiliza para orquestar el despliegue de los microservicios.
 
-yaml
-Copiar código
+````
 version: '3.8'  # Versión del formato de Docker Compose que se está utilizando
 
 services:       # Define los servicios que serán ejecutados en los contenedores
@@ -77,6 +76,8 @@ services:       # Define los servicios que serán ejecutados en los contenedores
 networks:
   mynetwork:
     driver: bridge          # Define una red llamada 'mynetwork' utilizando el driver 'bridge'
+```
+
 Pasos Realizados
 Construcción de Imágenes Docker:
 Se construyeron las imágenes Docker para ambos microservicios utilizando los Dockerfiles proporcionados.

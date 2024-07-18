@@ -93,6 +93,9 @@ networks:
 
         C:\Users\antonio.gonzalez\Desktop\ALTIA\MICROSERVICIOS\imagenes_docker\ejercicio6> docker-compose up -d
 
+![imagen](https://github.com/user-attachments/assets/03577005-4d3e-40aa-9257-38d11deb79ad)
+
+
 
 - Verificación de Servicios:
         Se verificó que los servicios estuvieran en ejecución utilizando el comando `docker ps`.

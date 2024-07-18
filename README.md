@@ -43,7 +43,7 @@ ENTRYPOINT ["java", "-jar", "/formacion.jar"]
 ### Archivo Docker Compose
 El archivo docker-compose.yml se utiliza para orquestar el despliegue de los microservicios.
 
-````
+```docker-compose.yml
 version: '3.8'  # Versión del formato de Docker Compose que se está utilizando
 
 services:       # Define los servicios que serán ejecutados en los contenedores

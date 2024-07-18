@@ -9,7 +9,7 @@ Este proyecto contiene dos microservicios, `curso` y `formacion`, implementados 
 El proyecto consta de dos microservicios con la siguiente estructura de directorios:
 
 
-### ejercicio6
+### ejercicio6_microservicios_docker
 ```docker-compose.yml
 
 ejercicio6_microservicio_curso_docker

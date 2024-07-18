@@ -1,0 +1,4 @@
+FROM openjdk:17-jdk-slim
+ADD formacion.jar formacion.jar
+EXPOSE 8081
+ENTRYPOINT ["java","-jar","/formacion.jar"]

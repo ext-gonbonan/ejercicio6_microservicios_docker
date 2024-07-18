@@ -3,6 +3,7 @@
 ## Introducción
 
 Este proyecto contiene dos microservicios, `curso` y `formacion`, implementados y desplegados utilizando Docker y Docker Compose. Cada microservicio tiene su propia configuración y un Dockerfile para la construcción de la imagen Docker. Se han configurado para asegurar su correcto funcionamiento y comunicación entre ellos.
+Además en el directorio raiz tenemos un `docker-compose.yml` facilitando la creación y configuración de los microservicios en docker.
 
 ## Estructura del Proyecto
 

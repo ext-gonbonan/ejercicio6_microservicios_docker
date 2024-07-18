@@ -1,0 +1,31 @@
+version: '3.8'  # Versión del formato de Docker Compose que se está utilizando
+services:        # Define los servicios que serán ejecutados en los contenedores
+  curso-service: # Primer servicio, llamado 'curso-service'
+    build: 
+      context: ./ejercicio6_microservicio_curso_docker       # Directorio de contexto para la construcción de la imagen Docker
+      dockerfile: Dockerfile                                 # Archivo Dockerfile que se usará para construir la imagen de este servicio
+    ports:
+      - "9001:8090"         # Mapea el puerto 9001 del host al puerto 8090 del contenedor
+    networks:
+      - mynetwork  # Usa una red personalizada para una mejor comunicación entre contenedores
+    #environment:
+      #SPRING_DATASOURCE_URL: jdbc:mysql://192.168.1.7:3307/cursosbd
+      #SPRING_DATASOURCE_USERNAME: root
+      #SPRING_DATASOURCE_PASSWORD: password
+
+  formacion-service: # Segundo servicio, llamado 'formacion-service'
+    build: 
+      context: ./ejercicio6_microservicio_formacion_docker   # Directorio de contexto para la construcción de la imagen Docker
+      dockerfile: Dockerfile                                 # Archivo Dockerfile que se usará para construir la imagen de este servicio
+    ports:
+      - "9000:8091"         # Mapea el puerto 9000 del host al puerto 8091 del contenedor
+    depends_on:
+      - curso-service       # Establece una dependencia con el servicio 'curso-service'. Docker Compose se asegurará de que 'curso-service' esté iniciado antes de 'formacion-service'
+    networks:
+      - mynetwork  # Usa la misma red personalizada
+    environment:
+      CURSO_SERVICE_URL: http://curso-service:8090/cursos
+
+networks:
+  mynetwork:
+    driver: bridge  # Usa el driver 'bridge' para la red

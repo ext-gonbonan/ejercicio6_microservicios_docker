@@ -1,4 +1,4 @@
-# Ejercicio 4: Documentación microservicio Curso
+# Ejercicio 6: Microservicio Curso Docker
 
 ## Descripción del Proyecto
 

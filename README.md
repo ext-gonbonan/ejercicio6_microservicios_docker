@@ -118,6 +118,9 @@ networks:
         Microservicio Curso: http://localhost:9001/swagger-ui/index.html
         Microservicio Formación: http://localhost:9000/swagger-ui/index.html
 
+![imagen](https://github.com/user-attachments/assets/e2b2c222-5609-46c5-8d1f-6e07f98ffaaf)
+
+
 
 ### Conclusión
 - Se ha implementado y desplegado con éxito dos microservicios utilizando Docker y Docker Compose. Los microservicios se comunican entre ellos y están configurados para trabajar con una base de datos MySQL. Además, se ha configurado Swagger para probar los endpoints de los microservicios.

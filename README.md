@@ -118,7 +118,9 @@ networks:
         Microservicio Curso: http://localhost:9001/swagger-ui/index.html
         Microservicio Formación: http://localhost:9000/swagger-ui/index.html
 
-![imagen](https://github.com/user-attachments/assets/e2b2c222-5609-46c5-8d1f-6e07f98ffaaf)
+![imagen](https://github.com/user-attachments/assets/51bf655e-372c-478f-a793-00c09daa2c81)
+
+![imagen](https://github.com/user-attachments/assets/956fb1e9-718e-4ace-9b40-a6bea6a9cc6d)
 
 
 

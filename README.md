@@ -55,11 +55,7 @@ services:       # Define los servicios que serán ejecutados en los contenedores
       - "9001:8090"         # Mapea el puerto 9001 del host al puerto 8090 del contenedor
     networks:
       - mynetwork
-    environment:
-      SPRING_DATASOURCE_URL: jdbc:mysql://192.168.1.7:3307/cursosbd
-      SPRING_DATASOURCE_USERNAME: root
-      SPRING_DATASOURCE_PASSWORD: password
-
+    
   formacion-service: # Segundo servicio, llamado 'formacion-service'
     build: 
       context: ./ejercicio6_microservicio_formacion_docker  # Directorio de contexto para la construcción de la imagen Docker

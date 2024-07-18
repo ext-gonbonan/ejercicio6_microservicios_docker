@@ -21,21 +21,16 @@ El proyecto consta de dos microservicios con la siguiente estructura de director
                 Dockerfile
 
         
-Dockerfile
-Dockerfile para curso
-Dockerfile
-Copiar código
+### Dockerfile para `curso`
+
+```Dockerfile
 FROM openjdk:17-jdk-slim
 ADD curso.jar curso.jar
 EXPOSE 8090
 ENTRYPOINT ["java", "-jar", "/curso.jar"]
-Dockerfile para formacion
-Dockerfile
-Copiar código
-FROM openjdk:17-jdk-slim
-ADD formacion.jar formacion.jar
-EXPOSE 8091
-ENTRYPOINT ["java", "-jar", "/formacion.jar"]
+
+
+
 Archivo Docker Compose
 El archivo docker-compose.yml se utiliza para orquestar el despliegue de los microservicios.
 

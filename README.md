@@ -19,7 +19,7 @@ El proyecto consta de dos microservicios con la siguiente estructura de director
         ejercicio6_microservicio_formacion_docker
                 formacion.jar
                 Dockerfile
-        ```
+```
 
         
 ### Dockerfile para `curso`

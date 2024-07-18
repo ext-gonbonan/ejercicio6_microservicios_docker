@@ -28,7 +28,7 @@ FROM openjdk:17-jdk-slim
 ADD curso.jar curso.jar
 EXPOSE 8090
 ENTRYPOINT ["java", "-jar", "/curso.jar"]
-
+```
 
 
 Archivo Docker Compose

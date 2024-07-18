@@ -74,7 +74,9 @@ networks:
     driver: bridge          # Define una red llamada 'mynetwork' utilizando el driver 'bridge'
 ```
 
-Pasos Realizados
+
+
+### Pasos Realizados
 Construcción de Imágenes Docker:
 Se construyeron las imágenes Docker para ambos microservicios utilizando los Dockerfiles proporcionados.
 

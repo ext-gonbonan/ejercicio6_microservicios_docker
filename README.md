@@ -80,7 +80,7 @@ networks:
  - Construcción de Imágenes Docker:
         Se construyeron las imágenes Docker para ambos microservicios utilizando los Dockerfiles proporcionados. Con solo un comando se crean las imágenes de los microservicios docker.
 
-- docker-compose build
+        docker-compose build
 
 
 Despliegue de Servicios:

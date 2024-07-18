@@ -109,7 +109,11 @@ networks:
         Se revisaron los logs de los servicios para asegurarse de que todo estuviera funcionando correctamente.
 
         C:\Users\antonio.gonzalez\Desktop\ALTIA\MICROSERVICIOS\imagenes_docker\ejercicio6> docker logs ejercicio6-curso-service-1
+  ![imagen](https://github.com/user-attachments/assets/1b21b8bd-7799-4435-bfc2-8d1503a2dfaf)
+
         C:\Users\antonio.gonzalez\Desktop\ALTIA\MICROSERVICIOS\imagenes_docker\ejercicio6> docker logs ejercicio6-formacion-service-1
+  ![imagen](https://github.com/user-attachments/assets/ff1b03f6-02ea-466a-b471-e989c8f1d869)
+
 
 
 ### Acceso a Swagger

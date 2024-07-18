@@ -90,12 +90,12 @@ networks:
         docker-compose up -d
 
 
-Verificación de Servicios:
-Se verificó que los servicios estuvieran en ejecución utilizando el comando docker ps.
+- Verificación de Servicios:
+        Se verificó que los servicios estuvieran en ejecución utilizando el comando `docker ps`.
 
-bash
-Copiar código
-docker ps
+        docker ps
+
+
 Logs de los Servicios:
 Se revisaron los logs de los servicios para asegurarse de que todo estuviera funcionando correctamente.
 

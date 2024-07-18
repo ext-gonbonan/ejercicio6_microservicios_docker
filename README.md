@@ -13,6 +13,8 @@ El proyecto consta de dos microservicios con la siguiente estructura de director
 ### ejercicio6_microservicios_docker
 ```docker-compose.yml
 
+docker-compose.yml
+
 ejercicio6_microservicio_curso_docker
         curso.jar
         Dockerfile

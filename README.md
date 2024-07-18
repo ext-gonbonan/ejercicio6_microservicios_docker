@@ -83,12 +83,12 @@ networks:
         docker-compose build
 
 
-Despliegue de Servicios:
-Se utilizó Docker Compose para desplegar los servicios en modo desatendido.
+- Despliegue de Servicios:
+        Se utilizó Docker Compose para desplegar los servicios en modo desatendido.
 
-bash
-Copiar código
-docker-compose up -d
+        docker-compose up -d
+
+
 Verificación de Servicios:
 Se verificó que los servicios estuvieran en ejecución utilizando el comando docker ps.
 

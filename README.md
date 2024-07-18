@@ -106,8 +106,8 @@ networks:
 ### Acceso a Swagger
 - Para acceder a la interfaz de Swagger y probar los endpoints, se utilizó la siguiente URL:
 
-Microservicio Curso: http://localhost:9001/swagger-ui/index.html
-Microservicio Formación: http://localhost:9000/swagger-ui/index.html
+        Microservicio Curso: http://localhost:9001/swagger-ui/index.html
+        Microservicio Formación: http://localhost:9000/swagger-ui/index.html
 
 
 ### Conclusión

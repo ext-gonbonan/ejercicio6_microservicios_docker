@@ -1,4 +1,4 @@
-# Ejercicio 6: microservicio de Formación Docker
+# Ejercicio 6: Microservicio Formación Docker
 
 ## Descripción
 

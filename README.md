@@ -84,7 +84,9 @@ networks:
         Se construyeron las imágenes Docker para ambos microservicios utilizando los Dockerfiles proporcionados. Con solo un comando se crean las imágenes de los microservicios docker.
 
         C:\Users\antonio.gonzalez\Desktop\ALTIA\MICROSERVICIOS\imagenes_docker\ejercicio6> docker-compose build
-        
+
+![imagen](https://github.com/user-attachments/assets/4a2e94e7-a8fd-4f2d-af2a-650792ffb221)
+
 
 - Despliegue de Servicios:
         Se utilizó Docker Compose para desplegar los servicios en modo desatendido `-d`.

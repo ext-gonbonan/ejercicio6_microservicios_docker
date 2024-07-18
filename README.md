@@ -97,7 +97,7 @@ networks:
 
         C:\Users\antonio.gonzalez\Desktop\ALTIA\MICROSERVICIOS\imagenes_docker\ejercicio6> docker ps
 
-        ![imagen](https://github.com/user-attachments/assets/0a500ea4-c708-4465-b9bd-094cde24c43b)
+  ![imagen](https://github.com/user-attachments/assets/0a500ea4-c708-4465-b9bd-094cde24c43b)
 
 
 - Logs de los Servicios:

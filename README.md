@@ -96,10 +96,8 @@ networks:
         docker ps
 
 
-Logs de los Servicios:
-Se revisaron los logs de los servicios para asegurarse de que todo estuviera funcionando correctamente.
+- Logs de los Servicios:
+        Se revisaron los logs de los servicios para asegurarse de que todo estuviera funcionando correctamente.
 
-bash
-Copiar código
-docker logs ejercicio6-curso-service-1
-docker logs ejercicio6-formacion-service-1
+        docker logs ejercicio6-curso-service-1
+        docker logs ejercicio6-formacion-service-1

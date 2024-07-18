@@ -84,7 +84,7 @@ networks:
 
 
 - Despliegue de Servicios:
-        Se utilizó Docker Compose para desplegar los servicios en modo desatendido.
+        Se utilizó Docker Compose para desplegar los servicios en modo desatendido ('d').
 
         docker-compose up -d
 

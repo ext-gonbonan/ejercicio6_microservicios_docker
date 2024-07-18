@@ -22,7 +22,7 @@ ejercicio6_microservicio_formacion_docker
 ```
 
         
-### Dockerfile para `curso`
+### Dockerfile para `cursos`
 
 ```Dockerfile
 FROM openjdk:17-jdk-slim
@@ -31,6 +31,14 @@ EXPOSE 8090
 ENTRYPOINT ["java", "-jar", "/curso.jar"]
 ```
 
+### Dockerfile para `formacion`
+
+```Dockerfile
+FROM openjdk:17-jdk-slim
+ADD formacion.jar formacion.jar
+EXPOSE 8091
+ENTRYPOINT ["java", "-jar", "/formacion.jar"]
+```
 
 Archivo Docker Compose
 El archivo docker-compose.yml se utiliza para orquestar el despliegue de los microservicios.

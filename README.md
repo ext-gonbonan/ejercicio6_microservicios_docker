@@ -84,26 +84,25 @@ networks:
         Se construyeron las imágenes Docker para ambos microservicios utilizando los Dockerfiles proporcionados. Con solo un comando se crean las imágenes de los microservicios docker.
 
         C:\Users\antonio.gonzalez\Desktop\ALTIA\MICROSERVICIOS\imagenes_docker\ejercicio6> docker-compose build
-        `docker-compose build`
-
+        
 
 - Despliegue de Servicios:
         Se utilizó Docker Compose para desplegar los servicios en modo desatendido `-d`.
 
-        docker-compose up -d
+        C:\Users\antonio.gonzalez\Desktop\ALTIA\MICROSERVICIOS\imagenes_docker\ejercicio6> docker-compose up -d
 
 
 - Verificación de Servicios:
         Se verificó que los servicios estuvieran en ejecución utilizando el comando `docker ps`.
 
-        docker ps
+        C:\Users\antonio.gonzalez\Desktop\ALTIA\MICROSERVICIOS\imagenes_docker\ejercicio6> docker ps
 
 
 - Logs de los Servicios:
         Se revisaron los logs de los servicios para asegurarse de que todo estuviera funcionando correctamente.
 
-        docker logs ejercicio6-curso-service-1
-        docker logs ejercicio6-formacion-service-1
+        C:\Users\antonio.gonzalez\Desktop\ALTIA\MICROSERVICIOS\imagenes_docker\ejercicio6> docker logs ejercicio6-curso-service-1
+        C:\Users\antonio.gonzalez\Desktop\ALTIA\MICROSERVICIOS\imagenes_docker\ejercicio6> docker logs ejercicio6-formacion-service-1
 
 
 ### Acceso a Swagger
